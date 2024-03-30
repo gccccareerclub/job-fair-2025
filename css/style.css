@@ -32,7 +32,7 @@ https://templatemo.com/tm-585-barber-shop
     --h6-font-size:                 22px;
     --p-font-size:                  20px;
     --btn-font-size:                16px;
-    --copyright-font-size:          14px;
+    --copyright-font-size:          12px;
   
     --border-radius-large:          100px;
     --border-radius-medium:         20px;
@@ -59,7 +59,7 @@ https://templatemo.com/tm-585-barber-shop
   h4,
   h5,
   h6 {
-    color: var(--dark-color);
+    color: var(--white-color);
   }
   
   h1,
@@ -187,6 +187,10 @@ https://templatemo.com/tm-585-barber-shop
   .border-bottom pb-3 mb-5 {
                                line-height: 1.5;            
   }
+
+  h2.mb-5 {
+    color: rgb(0, 0, 0); /* Set text color to white */
+}
   .custom-block-bg-overlay-wrap:hover .team-info {
     bottom: 10px;
   }
@@ -528,7 +532,7 @@ https://templatemo.com/tm-585-barber-shop
     transition: all 0.3s ease;
   }
   
-  .services-info h4 {
+  .services-info h5 {
     color: var(--white-color);
   }
   
