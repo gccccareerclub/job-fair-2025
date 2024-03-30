@@ -382,7 +382,7 @@ https://templatemo.com/tm-585-barber-shop
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0.65;
+    opacity: 0;
   }
   
   .hero-section .container {
@@ -393,7 +393,7 @@ https://templatemo.com/tm-585-barber-shop
   .custom-block {
     border: 10px solid var(--primary-color);
     border-radius: 100%;
-    position: absolute;
+    position: fixed;
     z-index: 2;
     bottom: -60px;
     right: -60px;
